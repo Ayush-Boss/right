@@ -1,0 +1,35 @@
+#services{
+    margin: 56px;
+    display: flex;
+    flex-direction: column;
+}
+#clints{
+    display: flex;
+    flex-wrap: wrap;
+}
+#clints img{
+    width: 80px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+}
+#navbar{
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+#navbar ul li a{
+    font-size: 20px;
+}
+#logo img{
+    display: none;
+}
+.specific{
+    padding: 160px 10px 10px 10px;
+}
+#Clints-Section::before{
+    content: "";
+    background: url(../Image/Background/Clints.jpeg) no-repeat center center/cover;
+    height: 100%;
+}
